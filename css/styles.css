@@ -77,6 +77,8 @@ h1, h2, h3, h4, h5, h6 {
 /* We Learn */
 #welearn .container-fluid {
   background: linear-gradient(0.375turn, #00D7F4, #fff);
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+
   text-align: left;
 }
 
@@ -132,6 +134,8 @@ h1, h2, h3, h4, h5, h6 {
 .ourteam-container {
   /* background: linear-gradient(0.125turn,#00D7F4, #fff); */
   background-color: #00D7F4;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
 }
 
 .fotter-item {
