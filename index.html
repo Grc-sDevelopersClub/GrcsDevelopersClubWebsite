@@ -12,7 +12,9 @@
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="Preloader/preloader.css">
+
+  <!-- <link rel="stylesheet" href="Preloader/preloader.css"> -->
+
   <!-- <link rel="icon" href="Images/favicon.ico"> -->
 
   <!-- BootStrap Script -->
@@ -53,7 +55,7 @@
               <a class="nav-link " href="#ourteam">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="login.html">Login/Register</a>
+              <a class="nav-link " href="https://shrouded-citadel-62106.herokuapp.com/">Login/Register</a>
             </li>
           </ul>
         </div>
@@ -242,7 +244,7 @@
               <div class="col-lg-4 col-md-4 col-sm-4 ourteam-item">
                 <img src="Images/harshad.webp" alt="Harshad Josi">
                 <h4>Member</h4>
-                <h4>Harshad Joshi</h4>
+                <a href="https://harshadjoshi01.github.io/HarshadIntrosite/"><h4>Harshad Joshi</h4></a>
               </div>
               <div class="col-lg-4 col-md-4 col-sm-4 ourteam-item">
                 <img src="Images/retik.webp" alt="Retik Singh">
@@ -314,15 +316,8 @@
     loaders = document.getElementsByClassName('loader-wrapper');
     loaders[0].style.display = "inherit";
 
-    function change(self) {
-        for (var i = loaders.length - 1; i >= 0; i--) {
-            loaders[i].style.display = "none";
-        }
-        id = self.id;
-        loaders[id - 1].style.display = "inherit";
-    };
-    </script>
 
 </body>
-<script src="Preloader/preloader.js"></script>
+<!-- <script src="Preloader/preloader.js"></script> -->
+
 </html>
